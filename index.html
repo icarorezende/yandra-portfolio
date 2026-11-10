@@ -3,17 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Yandra · Assessoria em Direito Imobiliário</title>
-  <meta name="description" content="Portfólio de Yandra, estagiária de Direito inscrita na OAB, com atuação em assessoria jurídica imobiliária: análise de documentação, contratos, locações e regularização de imóveis.">
+  <title>Yandra Moraes · Assessoria Imobiliária</title>
+  <meta name="description" content="Assessoria imobiliária com Yandra Moraes: análise preventiva de documentação, contratos, locações e regularização de imóveis com acolhimento, organização e segurança jurídica.">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- Faixa superior com o arco de 5 cores da identidade visual -->
+  <div class="brand-stripe" aria-hidden="true">
+    <span style="background: #6CBFDC;"></span>
+    <span style="background: #DC9F25;"></span>
+    <span style="background: #774563;"></span>
+    <span style="background: #CE5929;"></span>
+    <span style="background: #5A731C;"></span>
+  </div>
+
   <header class="nav" id="topo">
     <div class="container nav__inner">
-      <a href="#topo" class="brand" id="nav-brand">Yandra<span>.</span></a>
+      <a href="#topo" class="brand" id="nav-brand">
+        <img src="assets/logo-mark.png" alt="Logotipo Yandra" class="brand__logo" width="160" height="36">
+        <span class="brand__tag">Assessoria Imobiliária</span>
+      </a>
       <button class="nav__toggle" id="nav-toggle" aria-label="Abrir menu" aria-expanded="false">
         <span></span><span></span>
       </button>
@@ -31,19 +44,23 @@
     <section class="hero">
       <div class="container hero__grid">
         <div class="hero__text reveal">
-          <p class="eyebrow">Direito Imobiliário</p>
-          <h1>Segurança jurídica em cada etapa da sua negociação imobiliária.</h1>
-          <p class="lead">Sou Yandra, estagiária de Direito inscrita na OAB. Atuo em assessoria imobiliária ao lado de advogado(a) responsável, com atendimento próximo e linguagem clara.</p>
+          <div class="badge-row">
+            <span class="badge">Acolhimento</span>
+            <span class="badge">Organização</span>
+            <span class="badge">Segurança</span>
+          </div>
+          <h1>Segurança jurídica e clareza em cada etapa do seu imóvel.</h1>
+          <p class="lead">Sou Yandra Moraes. Presto assessoria imobiliária com foco em prevenção, análise documental detalhada e organização minuciosa, para você comprar, vender ou alugar com total tranquilidade.</p>
           <div class="hero__actions">
             <a href="#servicos" class="btn" id="hero-servicos">Conheça as áreas de atuação</a>
-            <a href="#contato" class="link-arrow" id="hero-contato">Fale comigo <span>→</span></a>
+            <a href="#contato" class="btn btn--outline" id="hero-contato">Fale comigo</a>
           </div>
         </div>
         <figure class="hero__media reveal">
-          <img src="assets/hero.jpg" alt="Fachada de edifício residencial moderno cercado por vegetação tropical" width="896" height="1200">
+          <img src="assets/hero.jpg" alt="Edifício residencial moderno cercado por vegetação" width="896" height="1200">
           <figcaption class="hero__card">
-            <strong>Compra · Venda · Locação</strong>
-            <span>Documentação, contratos e regularização</span>
+            <strong>Yandra Moraes</strong>
+            <span>Assessoria em Negociações & Regularização</span>
           </figcaption>
         </figure>
       </div>
@@ -53,15 +70,21 @@
     <section class="section section--tint" id="sobre">
       <div class="container about">
         <div class="reveal">
-          <p class="eyebrow">Sobre mim</p>
-          <h2>Formação jurídica com foco no mercado imobiliário.</h2>
+          <p class="eyebrow">Sobre</p>
+          <h2>Prevenção de riscos com atendimento humanizado e transparente.</h2>
         </div>
         <div class="about__body reveal">
-          <p>Meu interesse pelo Direito Imobiliário nasceu da percepção de que a maior parte dos problemas com imóveis poderia ser evitada com uma boa análise prévia: uma certidão esquecida, uma cláusula mal redigida, um registro que nunca foi feito.</p>
-          <p>Por isso, meu trabalho é focado em prevenção — organizar documentos, identificar riscos e garantir que cada passo da negociação esteja juridicamente amparado.</p>
+          <p>A maior parte dos litígios e prejuízos no mercado imobiliário poderia ser evitada com uma análise atenta e prévia: uma certidão faltante, cláusulas contratuais desequilibradas, ônus reais ocultos ou registros que deixaram de ser averbados.</p>
+          <p>Meu trabalho alia a solidez da técnica jurídica aos princípios centrais da minha marca: acolhimento, organização, inteligência e uso da tecnologia para descomplicar cada processo com clareza e transparência.</p>
           <ul class="facts">
-            <li><span>Atuação</span>Em conjunto com advogado(a) responsável</li>
-            <li><span>Atendimento</span>Presencial e online</li>
+            <li>
+              <span>Foco</span>
+              Assessoria Preventiva & Contratos
+            </li>
+            <li>
+              <span>Atendimento</span>
+              Presencial & Online
+            </li>
           </ul>
         </div>
       </div>
@@ -72,38 +95,38 @@
       <div class="container">
         <div class="section__head reveal">
           <p class="eyebrow">Áreas de atuação</p>
-          <h2>Como posso contribuir com a sua segurança imobiliária.</h2>
+          <h2>Serviços pensados para proteger o seu patrimônio.</h2>
         </div>
         <div class="services">
           <article class="service reveal" id="servico-due-diligence">
-            <span class="service__num">01</span>
+            <span class="service__num" style="color: #6CBFDC;">01</span>
             <h3>Análise de documentação</h3>
-            <p>Levantamento de certidões do imóvel e dos vendedores, verificação de matrícula, ônus, débitos e regularidade urbanística, com relatório de riscos.</p>
+            <p>Levantamento completo de certidões do imóvel e dos vendedores, verificação de matrícula, ônus, débitos fiscais e regularidade urbanística, com relatório de riscos.</p>
           </article>
           <article class="service reveal" id="servico-contratos">
-            <span class="service__num">02</span>
+            <span class="service__num" style="color: #DC9F25;">02</span>
             <h3>Contratos imobiliários</h3>
-            <p>Elaboração e revisão de promessas de compra e venda, cessões de direitos, permutas, comodatos e distratos.</p>
+            <p>Elaboração e revisão minuciosa de promessas de compra e venda, cessões de direitos, permutas, comodatos e distratos com cláusulas protetivas equilibradas.</p>
           </article>
           <article class="service reveal" id="servico-locacoes">
-            <span class="service__num">03</span>
+            <span class="service__num" style="color: #774563;">03</span>
             <h3>Locações</h3>
-            <p>Contratos residenciais e comerciais, análise de garantias, reajustes, notificações e acompanhamento de despejo e cobrança.</p>
+            <p>Contratos residenciais e comerciais, escolha e conferência de garantias, notificações extrajudiciais, vistorias e assessoria em renovações e rescisões.</p>
           </article>
           <article class="service reveal" id="servico-compra-venda">
-            <span class="service__num">04</span>
+            <span class="service__num" style="color: #CE5929;">04</span>
             <h3>Acompanhamento de compra e venda</h3>
-            <p>Do recebimento da proposta à escritura e ao registro em cartório, com orientação sobre ITBI e custos envolvidos.</p>
+            <p>Suporte de ponta a ponta: do aceite da proposta à orientação de tributos (ITBI/emolumentos), escritura pública e registro no Cartório de Imóveis.</p>
           </article>
           <article class="service reveal" id="servico-regularizacao">
-            <span class="service__num">05</span>
+            <span class="service__num" style="color: #5A731C;">05</span>
             <h3>Regularização de imóveis</h3>
-            <p>Usucapião, adjudicação compulsória, retificação de área, averbação de construção e REURB.</p>
+            <p>Dossiês e suporte para usucapião, adjudicação compulsória, retificação de área, averbação de construção e regularização fundiária (REURB).</p>
           </article>
           <article class="service reveal" id="servico-condominios">
-            <span class="service__num">06</span>
+            <span class="service__num" style="color: #6CBFDC;">06</span>
             <h3>Condomínios</h3>
-            <p>Revisão de convenção e regimento interno, orientação sobre assembleias e cobrança extrajudicial de cotas.</p>
+            <p>Adequação e revisão de convenções e regimentos internos, orientação para assembleias e suporte na cobrança extrajudicial amigável.</p>
           </article>
         </div>
       </div>
@@ -113,15 +136,30 @@
     <section class="section section--dark" id="processo">
       <div class="container">
         <div class="section__head reveal">
-          <p class="eyebrow">Como funciona</p>
-          <h2>Um atendimento organizado, do primeiro contato à entrega.</h2>
+          <p class="eyebrow eyebrow--light">Como funciona</p>
+          <h2>Um fluxo organizado e seguro, do início ao fim.</h2>
         </div>
         <ol class="steps">
-          <li class="reveal"><strong>Contato</strong><span>Você descreve sua situação por e-mail.</span></li>
-          <li class="reveal"><strong>Triagem</strong><span>Organizo as informações e os documentos iniciais.</span></li>
-          <li class="reveal"><strong>Consulta</strong><span>Reunião com o(a) advogado(a) responsável para definir a estratégia.</span></li>
-          <li class="reveal"><strong>Execução</strong><span>Análises, minutas e diligências em cartórios.</span></li>
-          <li class="reveal"><strong>Entrega</strong><span>Documentos revisados e assinados pelo(a) advogado(a).</span></li>
+          <li class="reveal">
+            <strong>Contato</strong>
+            <span>Você descreve sua necessidade e envia os primeiros dados.</span>
+          </li>
+          <li class="reveal">
+            <strong>Triagem</strong>
+            <span>Análise inicial dos fatos e checklist dos documentos necessários.</span>
+          </li>
+          <li class="reveal">
+            <strong>Estratégia</strong>
+            <span>Definição conjunta do melhor caminho e do plano de ação.</span>
+          </li>
+          <li class="reveal">
+            <strong>Execução</strong>
+            <span>Diligências em cartórios, redação ou revisão de documentos e contratos.</span>
+          </li>
+          <li class="reveal">
+            <strong>Conclusão</strong>
+            <span>Entrega dos pareceres, contratos assinados e registro concluído.</span>
+          </li>
         </ol>
       </div>
     </section>
@@ -131,16 +169,26 @@
       <div class="container contact reveal">
         <p class="eyebrow">Contato</p>
         <h2>Vamos conversar sobre o seu imóvel?</h2>
-        <p class="lead">Envie uma mensagem com um breve resumo da sua situação. Retorno em até 2 dias úteis.</p>
-        <a href="mailto:assessoria@yandra.com.br" class="btn btn--large" id="contato-email">assessoria@yandra.com.br</a>
+        <p class="lead">Conte um pouco sobre sua situação. Será um prazer atender você com atenção e dedicação.</p>
+        <div class="contact__links">
+          <a href="mailto:assessoria@yandra.com.br" class="btn btn--large" id="contato-email">
+            assessoria@yandra.com.br
+          </a>
+          <a href="https://instagram.com/yandra_assessoria" target="_blank" rel="noopener" class="btn btn--outline btn--large" id="contato-insta">
+            @yandra_assessoria
+          </a>
+        </div>
       </div>
     </section>
   </main>
 
   <footer class="footer">
     <div class="container footer__inner">
-      <p>© <span id="ano"></span> Yandra · Assessoria em Direito Imobiliário</p>
-      <p class="footer__note">Atuação como estagiária inscrita na OAB, em conjunto com advogado(a) responsável, nos termos do art. 3º, §2º, da Lei 8.906/94. Conteúdo de caráter exclusivamente informativo.</p>
+      <div class="footer__top">
+        <img src="assets/logo-mark.png" alt="Yandra" class="footer__logo" width="130" height="30">
+        <p class="footer__brand">Yandra Moraes · Assessoria Imobiliária</p>
+      </div>
+      <p class="footer__note">© <span id="ano"></span> Yandra Moraes. Atuação em assessoria e consultoria jurídica em conformidade com o Código de Ética e Disciplina da OAB. Conteúdo de caráter exclusivamente informativo e educativo.</p>
     </div>
   </footer>
 
