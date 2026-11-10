@@ -336,10 +336,23 @@ h3 { font-size: 1.35rem; font-weight: 600; }
 }
 .service:nth-child(1) { border-top-color: var(--cyan); }
 .service:nth-child(2) { border-top-color: var(--gold); }
-.service:nth-child(3) { border-top-color: var(--plum); }
-.service:nth-child(4) { border-top-color: var(--terracotta); }
-.service:nth-child(5) { border-top-color: var(--green); }
-.service:nth-child(6) { border-top-color: var(--cyan); }
+.service:nth-child(3) { border-top-color: var(--green); }
+.service:nth-child(4) { border-top-color: var(--plum); }
+.service:nth-child(5) { border-top-color: var(--terracotta); }
+.service:nth-child(6) { border-top-color: var(--gold); }
+.service:nth-child(7) { border-top-color: var(--cyan); }
+.service:nth-child(8) { border-top-color: var(--green); }
+
+.service__category {
+  display: block;
+  font-family: var(--font-brand);
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--plum);
+  margin-bottom: .65rem;
+}
 
 .service__num {
   font-family: var(--font-brand);
